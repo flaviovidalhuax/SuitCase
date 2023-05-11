@@ -5,8 +5,6 @@ import Banner from "./components/Banner.vue";
 import Banner2 from "./components/Banner2.vue";
 import SliderBag from "./components/SliderBag.vue";
 import SliderBag2 from "./components/Sliderbag2.vue";
-import Img from "./components/Img.vue";
-
 import FooterPage from "./components/FooterPage.vue";
 import Contact from "./components/Contact.vue";
 import ButtonWA from "./components/ButtonWA.vue";
