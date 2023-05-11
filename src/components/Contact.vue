@@ -7,7 +7,7 @@
       <div
         class="d-flex flex-column justify-content-center align-items-center vh-85 gap-4 position-relative"
       >
-          <video src="/flavio.mov" 
+          <video src="/src/assets/img/flavio.mov" 
               width="340"
               height="360"
               autoplay
