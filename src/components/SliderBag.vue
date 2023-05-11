@@ -61,7 +61,7 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="/ecommerce.jpg"
+                    src="/ecommerce.png"
                     class="img-fluid rounded-start h-100 w-100"
                     alt="pikachu"
                   />
