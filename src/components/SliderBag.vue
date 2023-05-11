@@ -24,10 +24,6 @@
                     <p class="card-text  font-weight-medium">                                        
                       This is a api use React.js Css for style use Route, Redux, Hooks like (useState, useEffect). You Can find one pokemon with the name or power.
                     </p>
-        
-                    <h6>
-                      <a :href="enlacePkeGit" class="textDecotarion" >github</a>
-                    </h6>
                     <section>
                       <v-layout class="overflow-visible" style="height: 56px;">
                       <v-bottom-navigation
@@ -72,10 +68,6 @@
                     <p class="card-text  font-weight-medium">                                        
                       This is a api use React.js Css for style use Route, Redux, axios, Hooks like (useState, useEffect, hoohform). You Can find a product for price and you can add card and buy it.
                     </p>
-        
-                    <h6>
-                      <a :href="enlaceEcmGit" class="textDecotarion" >github</a>
-                    </h6>
                     <section>
                       <v-layout class="overflow-visible" style="height: 56px;">
                       <v-bottom-navigation
@@ -90,7 +82,7 @@
                         </a>
                         </v-btn>
                         <v-btn>
-                        <a :href="enlacePke" class="textDecotarion" >
+                        <a :href="enlaceEcmGit" class="textDecotarion" >
                           <i class="my-iconA fab fa-github"></i>
                           <span>github</span>
                         </a>
@@ -104,7 +96,7 @@
             </div>
           </section>
         </div>
-        <!-- as -->
+        <!-- rick -->
         <div class="row">
           <section class="col">
             <div class="card mb-3 bg-black rounded-3" style="max-width: 540px">
@@ -149,6 +141,7 @@
               </div>
             </div>
           </section>
+          <!-- weather -->
           <section class="col">
             <div class="card mb-3 bg-black rounded-3" style="max-width: 540px">
               <div class="row g-0">
@@ -194,7 +187,7 @@
           </section>
         </div>
 
-            <!-- xdxd -->
+            <!-- node -->
         </div>
         <div class="carousel-item  " >
             <div class="row">
@@ -287,8 +280,8 @@ export default {
     return {
       enlacePkeGit: 'https://github.com/flaviovidalhuax/lastpokeapi',
       enlacePkeWeb: 'https://effervescent-faloodeh-042c84.netlify.app/',
-      enlaceEcomer:'https://sprightly-zuccutto-c5d32e.netlify.app/',
-      enlaceEcmGit:'https://github.com/flaviovidalhuax/reackecomer',
+      enlaceEcomer:'https://chipper-arithmetic-6802f2.netlify.app/',
+      enlaceEcmGit:'https://github.com/flaviovidalhuax/EcommerReact18',
       enlaceRickGit:'https://github.com/flaviovidalhuax/rickandmorty',
       enlaceRickWeb:'https://brilliant-puffpuff-1bcead.netlify.app/',
       enlaseWeatherGit:'https://github.com/flaviovidalhuax/weather',

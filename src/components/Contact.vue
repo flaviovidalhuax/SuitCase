@@ -1,11 +1,11 @@
 <template>
   <v-row class="vh-85  py-5" id="contact">
     <v-col cols="7" class="p-0">
-      <v-img class="vh-85" src="/src/assets/imagenes/comp.jpg" cover></v-img>
+      <v-img class="vh-85" :src="this.img" cover></v-img>
     </v-col>
     <v-col cols="5" class="bg-gray text-white p-0">
       <div class="d-flex flex-column justify-content-center align-items-center vh-85 gap-4 position-relative">
-          <!-- <video src="/src/assets/img/FlavioVid.mov" 
+          <video :src="this.vid" 
               width="340"
               height="360"
               autoplay
@@ -13,7 +13,7 @@
               muted
               controls
               class="auto-content rounded-xl"
-            ></video> -->
+            ></video>
         <h2 class="fw-bolder">How I am?</h2>
         <p class="px-5 mx-5 text-center">
           My name is Flavio Hernandez Jr. and I studied Electrical Engineering at UNAM, but I also took a Full Stack course in Javascript. For Front-end development, I am proficient in React.js, Node.js, and Vue.js. For Back-end development, I use Node.js. If you want to see my projects, you can check out my GitHub profile.
@@ -64,6 +64,7 @@ export default {
       whatsapp: "https://web.whatsapp.com/",
       github:"https://github.com/flaviovidalhuax",
       img:"/src/assets/imagenes/comp.jpg",
+      vid:"/src/assets/img/FlavioVid.mov",
     };
   },
 };
