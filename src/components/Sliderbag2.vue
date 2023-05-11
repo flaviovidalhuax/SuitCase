@@ -2,14 +2,14 @@
     <div>
      
         <v-carousel
-      v-model="model"
-      
-      cycle
-      interval="4000"
-      class="h-auto "
-      hide-delimiter-background
-      hide-delimiters
-    >
+          v-model="model"
+          
+          cycle
+          interval="8000"
+          class="h-auto "
+          hide-delimiter-background
+          hide-delimiters
+        >
     <h1 class="p-1 m-1">Nuestros productos</h1>
     <template v-slot:prev="{ props }">
       <v-btn
@@ -36,8 +36,8 @@
       >
       <v-sheet 
       color="#333333"
-      height="100%"
-      weight="100%"
+      height="500"
+      weight="400"
       class="d-flex justify-center align-center text-center"
       > 
       <v-card
@@ -46,11 +46,12 @@
                 >
                 <v-card-text >
                     <v-row class="d-flex justify-center align-center">
-                       <v-col cols="6">
+                       <v-col cols="6" class="rounded-lg bg-white">
                         <v-img
                         :src="item.src"
                         height='500'
-                        weight='400'
+                        weight='600'
+                        class=" m-2"
                         >
                         </v-img>
                        </v-col>
@@ -58,34 +59,26 @@
                             <h3>{{item.title}}</h3>
                             <p>{{item.describe}}</p>
                             <section class="m-3">
-                                <v-layout class="overflow-visible" style="height: 56px;">
-                                  <v-bottom-navigation
-                                    v-model="value"
-                                    :bg-color="color"
-                                    mode="shift"
+                                <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="m-3 bg-white btnMove">
+                                    <a
+                                    :href="this.diagram"
+                                    target="_blank"
+                                    class="text-decoration-none text-black a-large "
                                   >
-                                    <v-btn>
-                                      <a :href="item.weight" class="textDecotarion" > 
-                                      <v-icon>mdi-book</v-icon>
-                                      <span class="text-white">Link web</span>
-                                    </a>
-                                    </v-btn>
-                                    <v-btn>
-                                    <a :href="item.price" class="textDecotarion" >
-                                      <v-icon>mdi-image</v-icon>
-                                      <span class="text-white">github</span>
-                                    </a>
-                                    </v-btn>
-                                   
-                                    <v-btn>
-                                    <a :href="item.demo" class="textDecotarion" >
-                                      <v-icon icon="mdi-arrow-up-bold-box-outline"></v-icon>
-                                      <span class="text-white">swagger</span>
-                                    </a>
-                                    </v-btn>
-                                    
-                                  </v-bottom-navigation>
-                                </v-layout>
+                                    <i class="fas fa-project-diagram"></i>
+                                    DBdiagram
+                                  </a>
+                                </v-btn>
+                                <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="m-3 bg-white btnMove">
+                                    <a
+                                    :href="this.gitHu"
+                                    target="_blank"
+                                    class="text-decoration-none text-black a-large "
+                                  >
+                                   <i class="fab fa-github"></i>
+                                    GitHub
+                                  </a>
+                                </v-btn>
                             </section>
                        </v-col>
                     </v-row>
@@ -119,34 +112,33 @@ export default {
       whatsapp: "https://wa.me/c/5214421681339",
       items: [
         {
-          src: "src/assets/imgBack/RedSocial.png",
+          src: "/RedSocial.png",
           title: "Api RedSocial (Back-end) Node.js",
           describe: "This one example of red social, you can create a post comment and follow a user and make a like",
           diagram:"https://dbdiagram.io/d/639bd8bf99cb1f3b55a1bffc",
-          price:"https://github.com/flaviovidalhuax/redSocialAPI-backendNode",
+          gitHu:"https://github.com/flaviovidalhuax/redSocialAPI-backendNode",
           
         },
        {
-        src: "src/assets/imgBack/NetflixClone.png",
+        src: "/netflix.png",
         title: "Api Netflix clone (Back-end) Node.js",
         describe: "In this Api you can post a movie and sort out a movies o serial.",
         diagram:"https://dbdiagram.io/d/63f80ba2296d97641d835db4",
-        price:"https://github.com/flaviovidalhuax/netflix-backEdn-node",
+        gitHu:"https://github.com/flaviovidalhuax/netflix-backEdn-node",
        },
        {
         src:"src/assets/imgBack/Chat.png",
         title: "Skeleton for backend-node.js",
         describe: "This Api is Back end of a chat like whatsapp, you can a create conversation and create a red of users and talk with friends",
         diagram:"https://dbdiagram.io/d/63e5c3c1296d97641d7fe093",
-        price:"https://github.com/flaviovidalhuax/chat-test4node",
+        gitHu:"https://github.com/flaviovidalhuax/chat-test4node",
        },
        {
         src:"src/assets/imgBack/squeleton.png",
         title:"Skeleton for init your new project",
         describe: "This is my skeleton for reducing work when you init a new project, it is base the code in the backend and deploy  in Render.",
-        diagram:" https://esqueleton-email.onrender.com",
-        price:"https://github.com/flaviovidalhuax/squeton-email",
-        demo:"https://esqueleton-email.onrender.com/api/v1/docs/",
+        diagram:" https://esqueleton-email.onrender.com/api/v1/docs/",
+        gitHu:"https://github.com/flaviovidalhuax/squeton-email",
        } 
 
       ],

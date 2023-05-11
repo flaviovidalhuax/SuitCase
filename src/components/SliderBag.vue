@@ -61,7 +61,7 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="/src/assets/imgProyect/ecomer.png"
+                    src="/ecommerce.jpg"
                     class="img-fluid rounded-start h-100 w-100"
                     alt="pikachu"
                   />
@@ -111,7 +111,7 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="/src/assets/imgProyect/rick.png"
+                    src="/rick.png"
                     class="img-fluid rounded-start h-100 w-100"
                     alt="pikachu"
                   />
@@ -154,7 +154,7 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="/src/assets/imgProyect/weather.png"
+                    src="/rallo.jpg"
                     class="img-fluid rounded-start h-100 w-100"
                     alt="pikachu"
                   />

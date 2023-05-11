@@ -3,6 +3,9 @@
     <a :href="whatsapp" target="_blank" class="text-decoration-none text-green d-flex justify-content-center align-items-center what">
       <v-icon size="x-large" class=" { 'd-none': !hover }">mdi-whatsapp</v-icon>
     </a>
+    <a :href="linkedin" target="_blank" class="text-decoration-none text-blue d-flex justify-content-center align-items-center what">
+      <i class="fab fa-linkedin"></i>
+    </a>
   </div>
 </template>
 
@@ -11,6 +14,7 @@ export default {
   data() {
     return {
       whatsapp: "https://web.whatsapp.com/",
+      linkedin:"https://www.linkedin.com/in/flavio-hernandez-jr-a0476b94/",
       hover: false,
     };
   },
@@ -37,6 +41,7 @@ export default {
   justify-content: center;
   align-items: center;
   transition: width 0.2s;
+  z-index: 1000;
 }
 .what {
   transform: rotate(45deg);
@@ -52,5 +57,8 @@ export default {
   width: 140px;
   border-radius: 50px 0 0 50px;
   transform: rotate(-15deg);
+}
+i{
+  font-size: 30px;
 }
 </style>
