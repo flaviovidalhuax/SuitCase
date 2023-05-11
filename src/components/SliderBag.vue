@@ -237,7 +237,7 @@
               </div>
               <div class="col-md-10">
                   <img
-                    src="/public/next1.png"
+                    src="/src/assets/img/next0.png"
                     class="img-fluid rounded-start h-100 w-100"
                     alt="node"
                   />
@@ -249,14 +249,14 @@
               <div class="row g-0">
                 <div class="col-md-10 ">
                   <img
-                    src="/next2.png"
+                    src="/src/assets/img/next1.png"
                     class="img-fluid rounded-start h-100 w-100"
                     alt="next"
                   />
                 </div>
                 <div class="col-md-10">
                   <img
-                    src="/next3.png"
+                    src="/src/assets/img/next2.png"
                     class="img-fluid rounded-start h-100 w-100"
                     alt="next"
                   />
