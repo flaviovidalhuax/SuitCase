@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg background-primary bg-body-tertiary ">
     <div class="container">
       <a class="navbar-brand " href="#">
-        <v-img :width="50" aspect-ratio="1/1" cover :src="imagenl"></v-img>
+        <v-img :width="50" aspect-ratio="1/1" cover :src="this.imagenl"></v-img>
       </a>
       <!-- vuetify.svg -->
       <button
