@@ -1,0 +1,64 @@
+<template>
+  <v-row class="vh-85  py-5" id="contact">
+    <v-col cols="5" class="p-0">
+      <v-img class="vh-85" src="/comp.jpg" cover></v-img>
+    </v-col>
+    <v-col cols="7" class="bg-gray text-white p-0">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center vh-85 gap-4 position-relative"
+      >
+          <video src="/flavio.mp4" 
+              width="340"
+              height="360"
+              autoplay
+              loop
+              muted
+              controls
+              class="auto-content rounded-xl"
+            ></video>
+        <h2 class="fw-bolder">How I am?</h2>
+        <p class="px-5 mx-5 text-center">
+          My name is Flavio Hernandez jr. and studied electric engineer in UNAM but I taken a curse fullstack in Javascript.
+          In Front I know the technologies of React.js Node.js Vue.js.
+          In back end Node.js if you want see my projects you could inside in my hithub.
+        </p>
+        <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="m-3 bg-white">
+          <a
+            :href="this.whatsapp"
+            target="_blank"
+            class="text-decoration-none text-black a-large "
+          >
+            <v-icon>mdi-whatsapp</v-icon>
+            Contac me 
+          </a>
+
+          <a
+            :href="this.whatsapp"
+            target="_blank"
+            class="text-decoration-none text-white a-small"
+          >
+            <v-icon>mdi-whatsapp</v-icon>
+            
+          </a>
+        </v-btn>
+       
+      </div>
+    </v-col>
+  </v-row>
+</template>
+
+<script>
+export default {
+  props: {
+    wa: String,
+  },
+  data() {
+    return {
+      whatsapp: "https://web.whatsapp.com/",
+    };
+  },
+};
+</script>
+
+<style>
+</style>
