@@ -4,9 +4,7 @@
       <v-img class="vh-85" :src="this.img" cover></v-img>
     </v-col>
     <v-col cols="5" class="bg-gray text-white p-0">
-      <div
-        class="d-flex flex-column justify-content-center align-items-center vh-85 gap-4 position-relative"
-      >
+      <div class="d-flex flex-column justify-content-center align-items-center vh-85 gap-4 position-relative">
           <!-- <video src="/src/assets/img/FlavioVid.mov" 
               width="340"
               height="360"

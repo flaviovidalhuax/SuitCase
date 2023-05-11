@@ -2,8 +2,9 @@
   <nav class="navbar navbar-expand-lg background-primary bg-body-tertiary ">
     <div class="container">
       <a class="navbar-brand " href="#">
-        <v-img :width="50" aspect-ratio="1/1" cover src="vuetify.svg"></v-img>
+        <v-img :width="50" aspect-ratio="1/1" cover :src="imagenl"></v-img>
       </a>
+      <!-- vuetify.svg -->
       <button
         class="navbar-toggler bg-white"
         type="button"
@@ -36,7 +37,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+    data() {
+    return {
+      imagenl: "/src/assets/imagenes/vuetify.svg",
+    };
+  },
+};
 </script>
 
 <style scoped>
