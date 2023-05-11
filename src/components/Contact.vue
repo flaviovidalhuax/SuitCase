@@ -1,7 +1,7 @@
 <template>
   <v-row class="vh-85  py-5" id="contact">
     <v-col cols="7" class="p-0">
-      <v-img class="vh-85" src="/src/assets/imagenes/comp.jpg" cover></v-img>
+      <v-img class="vh-85" :src="this.img" cover></v-img>
     </v-col>
     <v-col cols="5" class="bg-gray text-white p-0">
       <div
@@ -64,7 +64,8 @@ export default {
   data() {
     return {
       whatsapp: "https://web.whatsapp.com/",
-      github:"https://github.com/flaviovidalhuax"
+      github:"https://github.com/flaviovidalhuax",
+      img:"/src/assets/imagenes/comp.jpg",
     };
   },
 };
