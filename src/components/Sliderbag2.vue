@@ -127,14 +127,14 @@ export default {
         gitHu:"https://github.com/flaviovidalhuax/netflix-backEdn-node",
        },
        {
-        src:"src/assets/imgBack/Chat.png",
-        title: "Skeleton for backend-node.js",
+        src:"/Chat.png",
+        title: "ChatApi node.js",
         describe: "This Api is Back end of a chat like whatsapp, you can a create conversation and create a red of users and talk with friends",
         diagram:"https://dbdiagram.io/d/63e5c3c1296d97641d7fe093",
         gitHu:"https://github.com/flaviovidalhuax/chat-test4node",
        },
        {
-        src:"src/assets/imgBack/squeleton.png",
+        src:"/squeleton.png",
         title:"Skeleton for init your new project",
         describe: "This is my skeleton for reducing work when you init a new project, it is base the code in the backend and deploy  in Render.",
         diagram:" https://esqueleton-email.onrender.com/api/v1/docs/",

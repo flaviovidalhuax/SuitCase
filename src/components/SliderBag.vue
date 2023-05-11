@@ -198,17 +198,11 @@
         </div>
         <div class="carousel-item  " >
             <div class="row">
-              <section class="col">
+          <section class="col ">
             <div class="card mb-3 bg-black rounded-3" style="max-width: 540px">
               <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="/src/assets/imgProyect/next1.png"
-                    class="img-fluid rounded-start h-100 w-100"
-                    alt="pikachu"
-                  />
-                </div>
-                <div class="col-md-8">
+                
+                <div class="col-md-12">
                   <div class="card-body">
                     <h5 class="card-title font-weight-bold">Post your event Next.js</h5>
                     <p class="card-text  font-weight-medium">                                        
@@ -241,28 +235,35 @@
                   </div>
                 </div>
               </div>
+              <div class="col-md-10">
+                  <img
+                    src="/next1.png"
+                    class="img-fluid rounded-start h-100 w-100"
+                    alt="node"
+                  />
+                </div>
             </div>
-              </section>
-              <section class="col">
+          </section>
+          <section class="col">
             <div class="card mb-3 bg-black rounded-3" style="max-width: 540px">
               <div class="row g-0">
                 <div class="col-md-10 ">
                   <img
-                    src="/src/assets/imgProyect/next2.png"
+                    src="/next2.png"
                     class="img-fluid rounded-start h-100 w-100"
-                    alt="pikachu"
+                    alt="next"
                   />
                 </div>
                 <div class="col-md-10">
                   <img
-                    src="/src/assets/imgProyect/next3.png"
+                    src="/next3.png"
                     class="img-fluid rounded-start h-100 w-100"
-                    alt="pikachu"
+                    alt="next"
                   />
                 </div>
               </div>
             </div>
-          </section>
+              </section>
             </div>
             <!-- as -->
             
