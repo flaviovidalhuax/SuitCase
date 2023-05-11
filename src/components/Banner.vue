@@ -33,17 +33,18 @@
         <p> Phone number: 5521159387</p>
       </div>
       <div class="mx-xs-auto">
-        <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="m-3 bg-white">
+        <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="m-3 bg-white btnMove">
             <a
               :href="this.whatsapp"
               target="_blank"
               class="text-decoration-none text-black "
             >
-              <v-icon>mdi-whatsapp</v-icon>
+              <i class="fab fa-whatsapp"></i>
               Contac me in WHATSAPP
             </a>
         </v-btn>
-        <v-btn class="bg-white" rounded="xl" variant="outlined" color="black"  href="/src/public/resumeMay23.pdf" download>
+        <v-btn class="bg-white btnMove" rounded="xl" variant="outlined" color="black"  href="/src/public/resumeMay23.pdf" download>
+        <i class="fas fa-file-download"></i>
           Donwload resume
         </v-btn>
       </div>

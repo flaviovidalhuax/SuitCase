@@ -3,7 +3,7 @@
     v-model="model"
     class="position-relative vh-85 mb-5"
     cycle
-    interval="3000"
+    interval="7000"
     hide-delimiter-background
     hide-delimiters
     color="#BB916D"
@@ -17,9 +17,9 @@
         <span class="line-under-text my-2"></span>
         <div class="w-50">
           <p class="text-gray font-weight-black">{{ item.p }}</p>
-          <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="bg-white">
+          <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="bg-white btnMove">
             <a
-              :href="this.wa"
+              :href="this.whatsapp"
               target="_blank"
               class="text-decoration-none text-black a-large"
             >
@@ -28,7 +28,7 @@
             </a>
 
             <a
-              :href="this.wa"
+              :href="this.whatsapp"
               target="_blank"
               class="text-decoration-none text-white a-small"
             >
@@ -62,7 +62,7 @@ export default {
     return {
       selected: 0,
       model: 0,
-      whatsapp: "https://wa.me/c/5214421681339",
+      whatsapp: "https://web.whatsapp.com/",
       items: [
         {
           src: "/desarrolloWeb.jpg",

@@ -10,7 +10,7 @@ import Img from "./components/Img.vue";
 import FooterPage from "./components/FooterPage.vue";
 import Contact from "./components/Contact.vue";
 import ButtonWA from "./components/ButtonWA.vue";
-import Skill from './components/Skill.vue';
+import Skill from "./components/SkillAt.vue";
 </script>
 
 <template>
@@ -35,7 +35,7 @@ import Skill from './components/Skill.vue';
     
 <script>
 export default {
-  components: { Skill },
+
   data() {
     return {
       whatsapp: "https://web.whatsapp.com/",
