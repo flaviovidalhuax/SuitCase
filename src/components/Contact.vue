@@ -7,7 +7,7 @@
       <div
         class="d-flex flex-column justify-content-center align-items-center vh-85 gap-4 position-relative"
       >
-          <video src="/src/assets/img/flavio.mov" 
+          <!-- <video src="/src/assets/img/FlavioVid.mov" 
               width="340"
               height="360"
               autoplay
@@ -15,7 +15,7 @@
               muted
               controls
               class="auto-content rounded-xl"
-            ></video>
+            ></video> -->
         <h2 class="fw-bolder">How I am?</h2>
         <p class="px-5 mx-5 text-center">
           My name is Flavio Hernandez Jr. and I studied Electrical Engineering at UNAM, but I also took a Full Stack course in Javascript. For Front-end development, I am proficient in React.js, Node.js, and Vue.js. For Back-end development, I use Node.js. If you want to see my projects, you can check out my GitHub profile.
