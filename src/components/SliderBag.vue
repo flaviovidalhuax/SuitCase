@@ -237,7 +237,7 @@
               </div>
               <div class="col-md-10">
                   <img
-                    src="/next1.png"
+                    src="/public/next1.png"
                     class="img-fluid rounded-start h-100 w-100"
                     alt="node"
                   />
