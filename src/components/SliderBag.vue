@@ -61,9 +61,9 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src=""
+                    src="https://www.lluviadigital.com/wp-content/uploads/2020/02/e-commerce-que-es-Lluvia-Digital.jpg"
                     class="img-fluid rounded-start h-100 w-100"
-                    alt="pikachu"
+                    alt="eccommer"
                   />
                 </div>
                 <div class="col-md-8">
@@ -111,7 +111,7 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="/rick.png"
+                    src="https://es.web.img3.acsta.net/pictures/18/10/31/17/34/2348073.jpg"
                     class="img-fluid rounded-start h-100 w-100"
                     alt="pikachu"
                   />
@@ -154,7 +154,7 @@
               <div class="row g-0">
                 <div class="col-md-4">
                   <img
-                    src="/rallo.jpg"
+                    src="https://scied.ucar.edu/sites/default/files/media/images/weather_0.jpg"
                     class="img-fluid rounded-start h-100 w-100"
                     alt="pikachu"
                   />
@@ -295,7 +295,13 @@ export default {
       enlaseWeatherWeb:'https://musical-centaur-c8bd4a.netlify.app/',
       enlaceNextGit:'https://github.com/flaviovidalhuax/NextEventosCity',
       enlaceNextWeb:'https://dashing-axolotl-47ab54.netlify.app/',
-      value: 1
+      value: 1,
+      mage0:'/Commerce.png',
+      mage1:'/rick.png',
+      mage1:'/rallo.jpg',
+      mage2:'/next2.png',
+      mage2:'/next2.png',
+
     }
   },
   computed: {
