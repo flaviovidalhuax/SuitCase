@@ -65,18 +65,18 @@ export default {
       whatsapp: "https://web.whatsapp.com/",
       items: [
         {
-          src: "/desarrolloWeb.jpg",
+          src: "/src/assets/imagenes/desarrolloWeb.jpg",
           title: "Hello, I am Full-stack ",
           p: "I know the technologies in javascript in Front-end and Back-end ",
         },
         {
-          src: "/lap.jpg",
+          src: "/src/assets/imagenes/lap.jpg",
           title: "Hello, I am Front Developer",
           p: "In front-end I work with React.js, Node.js, Vue.js; therefor I use CSS, HTML, bootstrap, ReactBostrap, Vuetify, Tailwind.    ",
           button: "CONTACTANOS",
         },
         {
-          src: "/mac2.webp",
+          src: "/src/assets/imagenes/mac2.webp",
           title: "Hello, I am back end ",
           p: "In back-end I work with Node.js and Laravel 8",
         },

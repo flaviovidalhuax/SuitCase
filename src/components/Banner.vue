@@ -59,7 +59,7 @@ export default {
   },
   data() {
     return {
-      banner: "desarrolloWeb.jpg",
+      banner: "/src/assets/imagenes/desarrolloWeb.jpg",
       whatsapp: "https://web.whatsapp.com/",
     };
   },
