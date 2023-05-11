@@ -17,7 +17,7 @@
         <span class="line-under-text my-2"></span>
         <div class="w-50">
           <p class="text-gray font-weight-black">{{ item.p }}</p>
-          <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="bg-white btnMove">
+          <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="bg-white btnMove m-1">
             <a
               :href="this.whatsapp"
               target="_blank"
@@ -26,15 +26,15 @@
               <v-icon>mdi-whatsapp</v-icon>
               contact me
             </a>
-
+          </v-btn>
+          <v-btn id="btn" rounded="xl" variant="outlined" color="#FFE194" class="bg-white btnMove">
             <a
-              :href="this.whatsapp"
+              :href="item.award"
               target="_blank"
-              class="text-decoration-none text-white a-small"
+              class="text-decoration-none text-black a-large"
             >
-              <v-icon>mdi-whatsapp</v-icon>
-              contact me <br />
-              WHATSAPP
+              <i class="far fa-file-alt"></i>
+              Award
             </a>
           </v-btn>
         </div>
@@ -68,17 +68,19 @@ export default {
           src: "/src/assets/imagenes/desarrolloWeb.jpg",
           title: "Hello, I am Full-stack ",
           p: "I know the technologies in javascript in Front-end and Back-end ",
+          award:"https://certificates.academlo.com/en/verify/89321444550775",
         },
         {
           src: "/src/assets/imagenes/lap.jpg",
           title: "Hello, I am Front Developer",
           p: "In front-end I work with React.js, Node.js, Vue.js; therefor I use CSS, HTML, bootstrap, ReactBostrap, Vuetify, Tailwind.    ",
-          button: "CONTACTANOS",
+          award:"https://certificates.academlo.com/en/verify/88627046547961",
         },
         {
           src: "/src/assets/imagenes/mac2.webp",
           title: "Hello, I am back end ",
           p: "In back-end I work with Node.js and Laravel 8",
+          award:"https://certificates.academlo.com/en/verify/68745843335680",
         },
       ],
     };

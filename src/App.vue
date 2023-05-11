@@ -24,7 +24,7 @@ import Skill from "./components/SkillAt.vue";
       <div>
         <h3 class="text-white d-flex justify-center ">Experience Back end  </h3>
       </div>
-    <SliderBag2 />
+    <SliderBag2/>
     <Skill/>
     <FooterPage id="footer" />
     <ButtonWA></ButtonWA>
