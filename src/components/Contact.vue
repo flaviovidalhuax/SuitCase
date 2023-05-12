@@ -1,9 +1,9 @@
 <template>
   <v-row class="vh-85  py-5" id="contact">
-    <v-col cols="7" class="p-0">
-      <v-img class="vh-85" :src="this.img" cover></v-img>
-    </v-col>
-    <v-col cols="5" class="bg-gray text-white p-0">
+      <v-col cols="7" class="p-0">
+        <v-img class="vh-85" :src="this.img" cover></v-img>
+      </v-col>
+      <v-col cols="5" class="bg-gray text-white p-0">
       <div class="d-flex flex-column justify-content-center align-items-center vh-85 gap-4 position-relative">
           <video :src="this.vid" 
               width="340"
@@ -63,8 +63,8 @@ export default {
     return {
       whatsapp: "https://web.whatsapp.com/",
       github:"https://github.com/flaviovidalhuax",
-      img:"/src/assets/imagenes/comp.jpg",
-      vid:"/src/assets/img/FlavioVid.mov",
+      img:"https://i.imgur.com/goGA10y.jpg",
+      vid:"https://i.imgur.com/vloQZOr.mp4",
     };
   },
 };

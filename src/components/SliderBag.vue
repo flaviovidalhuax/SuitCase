@@ -238,23 +238,25 @@
             </div>
           </section>
           <section class="col">
-            <div class="card mb-3 bg-black rounded-3" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-10 ">
-                  <img
-                    src="/src/assets/img/next1.png"
-                    class="img-fluid rounded-start h-100 w-100"
-                    alt="next"
-                  />
+             <div class="card-body"> 
+                <div class="card mb-3 bg-black rounded-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-5 ">
+                      <img
+                        src="/src/assets/img/next1.png"
+                        class="img-fluid rounded-start h-100 w-100"
+                        alt="next"
+                      />
+                    </div>
+                    <div class="col-md-10">
+                      <img
+                        src="/src/assets/img/next2.png"
+                        class="img-fluid rounded-start h-100 w-100"
+                        alt="next"
+                      />
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-10">
-                  <img
-                    src="/src/assets/img/next2.png"
-                    class="img-fluid rounded-start h-100 w-100"
-                    alt="next"
-                  />
-                </div>
-              </div>
             </div>
               </section>
             </div>

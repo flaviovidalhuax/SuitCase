@@ -112,7 +112,7 @@ export default {
       whatsapp: "https://wa.me/c/5214421681339",
       items: [
         {
-          src: "/src/assets/imagenes/RedSocial.png",
+          src: "https://i.imgur.com/XulHqTL.png",
           title: "Api RedSocial (Back-end) Node.js",
           describe: "This one example of red social, you can create a post comment and follow a user and make a like",
           diagram:"https://dbdiagram.io/d/639bd8bf99cb1f3b55a1bffc",
@@ -120,21 +120,21 @@ export default {
           
         },
        {
-        src: "/src/assets/imagenes/netflix.png",
+        src: "https://i.imgur.com/iv2A0lp.png",
         title: "Api Netflix clone (Back-end) Node.js",
         describe: "In this Api you can post a movie and sort out a movies o serial.",
         diagram:"https://dbdiagram.io/d/63f80ba2296d97641d835db4",
         gitHu:"https://github.com/flaviovidalhuax/netflix-backEdn-node",
        },
        {
-        src:"/src/assets/imagenes/Chat.png",
+        src:"https://i.imgur.com/ZBvpN0v.png",
         title: "ChatApi node.js",
         describe: "This Api is Back end of a chat like whatsapp, you can a create conversation and create a red of users and talk with friends",
         diagram:"https://dbdiagram.io/d/63e5c3c1296d97641d7fe093",
         gitHu:"https://github.com/flaviovidalhuax/chat-test4node",
        },
        {
-        src:"/src/assets/imagenes/squeleton.png",
+        src:"https://i.imgur.com/a4oriLO.png",
         title:"Skeleton for init your new project",
         describe: "This is my skeleton for reducing work when you init a new project, it is base the code in the backend and deploy  in Render.",
         diagram:" https://esqueleton-email.onrender.com/api/v1/docs/",

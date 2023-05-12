@@ -16,7 +16,7 @@
         <h2 class="fw-bold w-50 font-weight-black">{{ item.title }}</h2>
         <span class="line-under-text my-2"></span>
         <div class="w-50">
-          <p class="text-gray font-weight-black">{{ item.p }}</p>
+          <h5 class="text-white font-weight-black">{{ item.p }}</h5>
           <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="bg-white btnMove m-1">
             <a
               :href="this.whatsapp"
@@ -65,19 +65,19 @@ export default {
       whatsapp: "https://web.whatsapp.com/",
       items: [
         {
-          src: "/src/assets/imagenes/desarrolloWeb.jpg",
+          src: "https://i.imgur.com/imU8jdD.jpg",
           title: "Hello, I am Full-stack ",
           p: "I know the technologies in javascript in Front-end and Back-end ",
           award:"https://certificates.academlo.com/en/verify/89321444550775",
         },
         {
-          src: "/src/assets/imagenes/lap.jpg",
+          src: "https://i.imgur.com/OisgUE3.jpg",
           title: "Hello, I am Front Developer",
           p: "In front-end I work with React.js, Node.js, Vue.js; therefor I use CSS, HTML, bootstrap, ReactBostrap, Vuetify, Tailwind.    ",
           award:"https://certificates.academlo.com/en/verify/88627046547961",
         },
         {
-          src: "/src/assets/imagenes/mac2.webp",
+          src: "https://i.imgur.com/goGA10y.jpg",
           title: "Hello, I am back end ",
           p: "In back-end I work with Node.js and Laravel 8",
           award:"https://certificates.academlo.com/en/verify/68745843335680",
