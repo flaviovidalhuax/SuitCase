@@ -43,7 +43,7 @@
               Contac me in WHATSAPP
             </a>
         </v-btn>
-        <v-btn class="bg-white btnMove" rounded="xl" variant="outlined" color="black"  href="/src/public/resumeMay23.pdf" download>
+        <v-btn class="bg-white btnMove" rounded="xl" variant="outlined" color="black"  href="/src/assets/imagenes/resumeMay23.pdf" download>
         <i class="fas fa-file-download"></i>
           Donwload resume
         </v-btn>
