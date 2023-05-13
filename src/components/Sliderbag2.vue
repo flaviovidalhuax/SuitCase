@@ -61,7 +61,7 @@
                             <section class="m-3">
                                 <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="m-3 bg-white btnMove">
                                     <a
-                                    :href="this.diagram"
+                                    :href="item.diagram"
                                     target="_blank"
                                     class="text-decoration-none text-black a-large "
                                   >
@@ -71,7 +71,7 @@
                                 </v-btn>
                                 <v-btn id="btn" rounded="xl" variant="outlined" color="#754319" class="m-3 bg-white btnMove">
                                     <a
-                                    :href="this.gitHu"
+                                    :href="item.gitHu"
                                     target="_blank"
                                     class="text-decoration-none text-black a-large "
                                   >
@@ -79,6 +79,7 @@
                                     GitHub
                                   </a>
                                 </v-btn>
+                              <h1>hola</h1>
                             </section>
                        </v-col>
                     </v-row>
