@@ -19,16 +19,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto gap-5">
           <li class="nav-item">
-            <a class="nav-link text-blue" href="#aboutus">About us</a>
+            <a class="nav-link text-blue" href="#aboutus">About me</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-blue" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-blue" aria-current="page" href="#">Skill</a>
+            <a class="nav-link text-blue" aria-current="page" href="#skill">Skill</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-blue" aria-current="page" href="#footer">Footer</a>
+            <a class="nav-link text-blue" aria-current="page" href="#footer">Contact me </a>
           </li>
         </ul>
       </div>
@@ -48,6 +48,7 @@ export default {
 
 <style scoped>
 * {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  padding: 0;
 }
 </style>

@@ -79,7 +79,6 @@
                                     GitHub
                                   </a>
                                 </v-btn>
-                              <h1>hola</h1>
                             </section>
                        </v-col>
                     </v-row>
